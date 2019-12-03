@@ -1,0 +1,165 @@
+● 和Part有关
+UF_PART_open
+UF_PART_close_all
+UF_PART_save_all
+UF_PART_ask_part_name
+UF_PART_ask_part_tag
+UF_PART_ask_units
+UF_PART_ask_display_part
+UF_PART_set_display_part
+UF_PART_is_modified
+
+● 和菜单有关
+uc1601 //信息提示
+UF_UI_set_status
+UF_UI_set_prompt
+uc1603 //选择菜单
+uc1605 //多项选择菜单
+
+● 和选择显示有关
+UF_UI_set_select_mask
+UF_UI_select_with_class_dialog
+UF_UI_select_with_single_dialog
+UF_UI_set_sel_mask
+UF_DISP_set_highlight
+UF_DISP_set_display
+UF_DISP_add_item_to_display
+UF_DISP_regenerate_display
+UF_DISP_refresh
+
+● 和装配有关
+UF_ASSEM_create_component_part
+UF_ASSEM_create_mc_array
+UF_ASSEM_ask_work_part
+UF_ASSEM_ask_component_data
+UF_ASSEM_ask_mc_array_data
+UF_ASSEM_ask_assem_options
+UF_ASSEM_is_occurrence
+UF_ASSEM_is_part_occurrence
+UF_ASSEM_ask_prototype_of_occ
+UF_ASSEM_ask_inst_of_part_occ
+UF_ASSEM_ask_parent_of_instance
+UF_ASSEM_ask_child_of_instance
+UF_ASSEM_remove_instance
+UF_ASSEM_ask_occs_of_entity
+UF_ASSEM_ask_occs_of_part
+UF_ASSEM_set_assem_options
+UF_ASSEM_cycle_ents_in_part_occ
+
+● 和图层有关
+UF_LAYER_set_status
+UF_LAYER_ask_status
+UF_LAYER_cycle_by_layer
+
+● 和对象相关
+UF_OBJ_delete_object
+UF_OBJ_ask_status
+UF_OBJ_set_def_cre_color
+UF_OBJ_set_cre_color
+UF_OBJ_ask_type_and_subtype
+
+● 和表达式相关
+UF_MODL_create_exp
+UF_MODL_ask_exp
+UF_MODL_edit_exp
+UF_MODL_delete_exp
+UF_MODL_eval_exp
+UF_MODL_export_exp
+UF_MODL_import_exp
+UF_MODL_rename_exp
+UF_MODL_create_exp_tag
+UF_MODL_ask_exp_tag_value
+UF_MODL_delete_exp_tag
+UF_MODL_ask_exp_tag_string
+UF_MODL_dissect_exp_string
+UF_MODL_update
+
+● 和模型链表相关
+UF_MODL_create_list //创建一个链表
+UF_MODL_put_list_item //加入特征到链表
+UF_MODL_ask_list_count
+UF_MODL_ask_list_item
+UF_MODL_ask_list_item
+UF_MODL_delete_list
+UF_MODL_delete_list_item
+
+● 和创建模型相关
+UF_MODL_create_block1 //创建四方体
+UF_MODL_create_blend //倒圆角
+UF_MODL_create_cyl1
+UF_MODL_create_hollow
+UF_MODL_create_linear_iset
+UF_MODL_create_rect_pocket
+UF_MODL_create_rect_slot
+UF_MODL_create_simple_hole
+UF_MODL_operations
+UF_MODL_active_part
+
+●和模型查询相关
+UF_MODL_ask_feat_body
+UF_MODL_ask_body_type
+UF_MODL_ask_body_faces
+UF_MODL_ask_body_edges
+UF_MODL_ask_edge_body
+UF_MODL_ask_edge_faces
+UF_MODL_ask_edge_type
+UF_MODL_ask_edge_verts
+UF_MODL_ask_face_body
+UF_MODL_ask_face_edges
+UF_MODL_ask_face_data
+UF_MODL_ask_feat_faces
+UF_MODL_ask_block_parms
+UF_MODL_ask_minimum_dist
+UF_MODL_ask_simple_hole_parms
+
+● 和对象名称相关
+UF_OBJ_set_name
+UF_OBJ_ask_name
+UF_OBJ_delete_name
+UF_OBJ_cycle_by_name
+
+● 和制图尺寸相关
+UF_DRF_ask_preferences
+UF_DRF_set_preferences
+UF_DRF_create_horizontal_dim
+UF_DRF_init_object_structure
+UF_DRF_create_vertical_dim
+UF_DRF_create_note
+UF_DRF_create_label
+UF_VIEW_ask_tag_of_view_name
+UF_VIEW_expand_view
+UF_VIEW_is_expanded
+UF_VIEW_unexpand_work_view
+
+● 和视图相关
+uc6476 //设置绘制状态
+uc6477 //检索图状态
+uc6478 //创建绘图
+uc6479 //查询图纸尺寸
+uc6480 //设置图纸尺寸
+UF_DRAW_ask_drawing_info
+UF_DRAW_set_drawing_info
+UF_DRAW_import_view
+uc6481 //添加视图
+uc6482 //删除视图
+uc6483 //读取视图的参考点
+uc6484 //设置视图参考点
+uc6485 //查询视图边界
+uc6486 //设置视图边框
+UF_DRAW_define_view_manual_rec t
+UF_DRAW_update_one_view
+uc6492 //读取当前绘图名称
+UF_DRAW_ask_current_drawing
+uc6496 //重命名绘图
+uc6495 //删除视图
+uc6499 //在绘图周期的观点
+
+● 和属性相关
+UF_ATTR_ask_part_attribute
+UF_ATTR_assign
+UF_ATTR_ask_part_attrs
+UF_ATTR_ask_part_attrs_in_fi le
+UF_ATTR_read_value
+UF_ATTR_cycle
+UF_ATTR_delete
+UF_ATTR_delete_all
